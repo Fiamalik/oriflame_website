@@ -1,0 +1,166 @@
+@charset "utf-8";
+#main{
+height:auto;
+width:1339px;
+border:1px solid green;
+}
+
+
+header{
+background-image:url(header.jpg);
+background-size:100% 100%;
+background-color:blue;
+width:auto;
+height:200px;
+}
+#logo{
+margin-top:10px;
+}
+
+h1{
+font-size:76px;
+color: grey;
+font-family:monotype corsiva;
+margin-top:-100px;
+margin-left:-2%;
+text-align:center;
+
+}
+
+h2{
+font-size:40px;
+color: grey;
+font-family:monotype corsiva;
+margin-top:-100px;
+margin-left:-2%;
+text-align:center;
+}
+
+
+#sbar{
+width:auto;
+height:50px;
+
+}
+
+#sbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aca4ce;
+    float:left;
+    margin-left:380px;
+    opacity:0.6;
+    filter:alpha (opacity=10); 
+
+}
+
+#sbar li {
+    float:left;
+}
+
+#sbar li a {
+    display: block;
+    color:green;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size:25px;
+    font-family:Aharoni;
+}
+
+#sbar li a:hover {
+    background-color: grey;
+}
+
+
+
+marquee{
+width:1339px;
+height:100px;
+font-size:70px;
+color:green;
+font-family:monotype corsiva;
+background-color:white;
+}
+.x{
+	font-size:45px;
+	}
+
+
+
+#slider{
+height:550px;
+width:1000px;
+background-color:black;
+margin-left:180px;
+border:1px solid black;
+
+}
+
+#slider{
+-webkit-animation:slider 30s;
+-webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes slider{
+0%{background-image:url(s1.jpg); background-size:100% 100%;}
+10%{background-image:url(fia2.jpg); background-size:100% 100%;}
+20%{background-image:url(fia3.jpg); background-size:100% 100%;}
+30%{background-image:url(fia4.jpg); background-size:100% 100%;}
+40%{background-image:url(fia5.jpg); background-size:100% 100%;}
+50%{background-image:url(fia6.jpg); background-size:100% 100%;}
+60%{background-image:url(fia7.jpg); background-size:100% 100%;}
+70%{background-image:url(fia8.png); background-size:100% 100%;}
+80%{background-image:url(fia9.jpeg); background-size:100% 100%;}
+90%{background-image:url(fia10.png); background-size:100% 100%;}
+100%{background-image:url(fia11.jpg); background-size:100% 100%;}
+}
+
+
+#section{  
+height:300px;
+width:auto;
+background-image:url(formdiv.jpg);
+background-size:100%100%;
+margin-top:15px
+}
+
+h3{
+font-size:50px;
+color: grey;
+font-family:monotype corsiva;
+margin-top:-1px;
+margin-left:650px;
+text-align:center;
+}
+			
+footer{
+background-size:100% 100%;
+margin-top:-10px;
+background-color:green;
+width:1339px;
+height:100px;
+}
+
+
+.footpara{
+			margin:20px;
+			float:left;
+			font-size:23px;
+			
+			}
+#margin{
+			margin-left:1200px;
+			margin-top:10px;
+	
+	}		
+			
+
+			
+
+
+
+/* CSS Document */
+
